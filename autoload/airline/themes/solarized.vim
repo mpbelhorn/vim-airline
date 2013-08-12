@@ -47,12 +47,12 @@ function! s:generate()
     if s:background == 'dark'
       let s:NM = {
             \ 'info_separator': [s:N2[1], s:N3[1], ''],
-            \ 'statusline': [s:magenta, s:N3[1], ''],
+            \ 'statusline': [s:orange, s:N3[1], ''],
             \ }
     else
       let s:NM = {
             \ 'info_separator': [s:N2[1], s:N3[1], ''],
-            \ 'statusline': [s:magenta, s:N3[1], ''],
+            \ 'statusline': [s:orange, s:N3[1], ''],
             \ }
     endif
   else
